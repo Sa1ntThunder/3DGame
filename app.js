@@ -7,7 +7,7 @@ const { Server } = require('socket.io');
 const cors = require('cors');
 app.use(cors());
 
-const POST = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 
 const MAX_PLAYERS = process.env.PORT || 4;
 
