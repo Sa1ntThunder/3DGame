@@ -9,7 +9,7 @@ app.use(cors());
 
 const PORT = process.env.PORT || 5000;
 
-const MAX_PLAYERS = process.env.PORT || 4;
+const MAX_PLAYERS = process.env.MAX_PLAYERS || 4;
 
 const TICK_TIME = 25;
 
